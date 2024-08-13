@@ -1,0 +1,26 @@
+{
+    "global":
+    {
+        "g" : [9.81, 1, false, true],
+        "m" : [18781, 1, false, true],
+        "lf" : [5, 1, true, false],
+        "l" : [10, 2, true, false],
+        "a" : [0.5, 1, true, false],
+        "b" : [0.5, 1, true, false],
+        "L" : [2.5, 1, false, true],
+        "h" : [0.54, 1, false, true],
+        "iz" : [150000, 50000, true, false],
+        "By1": [7.1, 2, true, false],
+        "Cy1": [3, 2, true, false],
+        "Dy1": [3, 2, true, false],
+        "Ey1": [-2.0, 1, true, false],
+        "Sv1": [0, 0.001, false, true],
+        "Sh1": [0, 0.001, false, true],
+        "By2": [7.1, 2, true, false],
+        "Cy2": [3, 2, true, false],
+        "Dy2": [3, 2, true, false],
+        "Ey2": [-2.0, 1, true, false],
+        "Sv2": [0, 0.001, false, true],
+        "Sh2": [0, 0.001, false, true]
+    }
+}

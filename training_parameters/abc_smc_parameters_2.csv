@@ -1,0 +1,2 @@
+subsampling_dt,batchsize,future_temporal_horizon,future_delay,smoothing,state_configuration,data,data_dt,seed
+0.05,12000,1.,0.05,0,dof2,february_2024,0.005,43
