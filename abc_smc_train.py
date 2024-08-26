@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import torch
 import os
-from utils import to_numpy, SimpleDataLoader, save_to_json, data_preprocessing, data_preprocessing_, open_data, split_data
+from utils import to_numpy, SimpleDataLoader, save_to_json, data_preprocessing, data_preprocessing_, open_data, split_data, create_folder_if_not_exists
 # from vehicle_dynamic import vehicle_parameters
 from config import *
 # import metrics as metrics
@@ -327,6 +327,7 @@ if __name__ == '__main__':
                 for key in parameters.keys():
                     parameters[key].append(model.get_parameters()[key])
 
+            create_folder_if_not_exists(f'{training_folder}/results/')
             save_to_json(
                 parameters,
                 f'{training_folder}/results/parameter.json'
