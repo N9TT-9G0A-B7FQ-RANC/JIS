@@ -1,6 +1,6 @@
-# IEEE Ral code
+# JIS code
 
-This repository contains the implementation of algorithms and experiments for the IEEE Robotics and Automation Letters (RAL) paper. The code is structured to facilitate the execution of the ABC-SMC algorithm, model training, and performance visualization.
+This repository contains the implementation of algorithms and experiments for the JIS journal. The code is structured to facilitate the execution of the ABC-SMC algorithm, model training, and performance visualization.
 
 ## 1) Installation
 
